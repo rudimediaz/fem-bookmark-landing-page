@@ -1,0 +1,13 @@
+{
+  "tabWidth": 2,
+  "printWidth": 70,
+  "overrides": [
+    {
+      "files": "./src/**/*.{scss,css}",
+      "options": {
+        "tabWidth": 4,
+        "printWidth": 100
+      }
+    }
+  ]
+}
