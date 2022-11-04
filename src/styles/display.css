@@ -1,0 +1,13 @@
+@layer mods {
+    .flex {
+        display: flex;
+    }
+
+    .grid {
+        display: grid;
+    }
+
+    .inline-flex {
+        display: inline-flex;
+    }
+}

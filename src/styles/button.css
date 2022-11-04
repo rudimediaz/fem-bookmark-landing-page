@@ -1,0 +1,55 @@
+@layer comps {
+    .btn {
+        text-decoration: none;
+        text-align: center;
+        border: none;
+        background-color: var(--btn-shade);
+        color: var(--btn-tint);
+        outline: 1px solid var(--btn-shade);
+        padding-block: 0.5em;
+        padding-inline: 1em;
+        font-weight: 500;
+        border-radius: 0.25rem;
+    }
+
+    .btn:focus-visible {
+        outline-offset: 2px;
+    }
+
+    .btn_outlined {
+        background-color: var(--btn-tint);
+        color: var(--btn-tint-outlined);
+        outline-color: var(--btn-tint);
+    }
+
+    .btn_outlined:focus-visible {
+        outline-color: var(--btn-tint-outlined);
+    }
+
+    .btn_primary,
+    .btn_primary-alt {
+        --btn-tint: #fff;
+        --btn-tint-outlined: var(--clr-n-2);
+    }
+
+    .btn_primary {
+        --btn-shade: var(--clr-p-1);
+    }
+
+    .btn_primary-alt {
+        --btn-shade: var(--clr-p-2);
+    }
+
+    @media (hover: hover) {
+        .btn:hover {
+            background-color: var(--btn-tint);
+            color: var(--btn-shade);
+            cursor: pointer;
+        }
+
+        .btn_outlined:hover {
+            outline-color: var(--btn-tint-outlined);
+            color: var(--btn-tint-outlined);
+        }
+    }
+}

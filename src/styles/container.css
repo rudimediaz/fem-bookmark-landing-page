@@ -1,0 +1,41 @@
+@layer mods {
+    .container {
+        margin-inline: min(0.5rem, 2vw);
+    }
+
+    @media (280px < width <= 320px) {
+        .container {
+            margin-inline: var(--size-fluid-1);
+        }
+    }
+
+    @media (320px < width <=480px) {
+        .container {
+            margin-inline: var(--size-fluid-2);
+        }
+    }
+
+    @media (480px < width <=768px) {
+        .container {
+            margin-inline: var(--size-fluid-3);
+        }
+    }
+
+    @media (768px < width <= 1024px) {
+        .container {
+            margin-inline: var(--size-fluid-4);
+        }
+    }
+
+    @media (1024px < width <= 1440px) {
+        .container {
+            margin-inline: var(--size-fluid-5);
+        }
+    }
+
+    @media (width > 1440px) {
+        .container {
+            margin-inline: max(10.5rem, 10vw);
+        }
+    }
+}
