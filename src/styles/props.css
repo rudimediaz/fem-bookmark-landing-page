@@ -1,0 +1,20 @@
+:root {
+    --clr-p-hsl-1: 0 94% 66%;
+    --clr-p-hsl-2: 231 69% 60%;
+
+    --clr-p-1: hsl(var(--clr-p-hsl-1));
+    --clr-p-2: hsl(var(--clr-p-hsl-2));
+
+    --clr-n-hsl-1: 229 8% 60%;
+    --clr-n-hsl-2: 229 31% 21%;
+
+    --clr-n-1: hsl(var(--clr-n-hsl-1));
+    --clr-n-2: hsl(var(--clr-n-hsl-2));
+
+    --font-size-comp: 2px;
+    --size-fluid-1: clamp(1rem, -2.5rem + 20vw, 1.5rem);
+    --size-fluid-2: clamp(1.5rem, 0.5rem + 5vw, 2rem);
+    --size-fluid-3: clamp(2rem, -1.33rem + 11.111vw, 4rem);
+    --size-fluid-4: clamp(4rem, -2rem + 12.5vw, 6rem);
+    --size-fluid-5: clamp(8rem, 1.8rem + 9.6vw, 10.5rem);
+}
