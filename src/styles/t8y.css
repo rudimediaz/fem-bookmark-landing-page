@@ -1,0 +1,29 @@
+@layer mods {
+    .heading {
+        font-weight: 500;
+        font-size: clamp(1.5rem, 1.5rem + 1.2vw, 2rem);
+    }
+
+    .body-copy {
+        line-height: 1.4;
+        font-size: clamp(0.5rem, 0.5rem + 1.5, 1rem);
+    }
+
+    .text-ntrl-1 {
+        color: var(--clr-n-1);
+    }
+
+    .text-ntrl-2 {
+        color: var(--clr-n-2);
+    }
+
+    @media (width > 35em) {
+        .heading {
+            font-size: clamp(2.625rem, 2.4rem + 0.6vw, 3rem);
+        }
+
+        .body-copy {
+            font-size: clamp(1rem, 0.925rem + 0.22vw, 1.125rem);
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.pill {
+    border-radius: 999em 50% 50% 999em;
+    background-color: var(--shape-shade);
+}
+
+.pill_flipped {
+    transform: scaleX(-1);
+}

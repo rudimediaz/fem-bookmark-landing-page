@@ -1,0 +1,20 @@
+.overview__desc {
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.overview-visual__overlay {
+    width: 200%;
+    inset: 20% 0 0 20%;
+}
+
+.overview__action {
+    gap: 1rem;
+}
+
+@media (width > 35em) {
+    .overview-visual__overlay {
+        inset: 30% 0 0 20%;
+        height: 60%;
+    }
+}

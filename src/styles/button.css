@@ -6,7 +6,7 @@
         background-color: var(--btn-shade);
         color: var(--btn-tint);
         outline: 1px solid var(--btn-shade);
-        padding-block: 0.5em;
+        padding-block: 1em;
         padding-inline: 1em;
         font-weight: 500;
         border-radius: 0.25rem;
@@ -20,6 +20,10 @@
         background-color: var(--btn-tint);
         color: var(--btn-tint-outlined);
         outline-color: var(--btn-tint);
+    }
+
+    .btn_chopped {
+        padding-block: 0.5em;
     }
 
     .btn_outlined:focus-visible {
