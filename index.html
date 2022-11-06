@@ -43,279 +43,286 @@
     </style>
   </head>
   <body>
-    <header class="header flex">
-      <nav class="nav flex container" id="nav-master">
-        <!-- brand logo  -->
-        <a
-          href="/"
-          aria-labelledby="brand-logo-top"
-          class="brand-top"
-          data-navigation-state
-          data-navigation-agent
-        >
-          <span id="brand-logo-top" class="sr-only">Bookmark</span>
-          <img
-            src="/images/logo-bookmark.svg"
-            alt="Bookmark Brand Logo"
-          />
-        </a>
+    <div class="page-wrapper">
+      <header class="header flex">
+        <nav class="nav flex container" id="nav-master">
+          <!-- brand logo  -->
+          <a
+            href="/"
+            aria-labelledby="brand-logo-top"
+            class="brand-top"
+            data-navigation-state
+            data-navigation-agent
+          >
+            <span id="brand-logo-top" class="sr-only">Bookmark</span>
+            <img
+              src="/images/logo-bookmark.svg"
+              alt="Bookmark Brand Logo"
+            />
+          </a>
 
-        <!-- navigation toggle  -->
-        <button
-          id="nav-toggle"
-          class="btn nav-toggle"
-          aria-controls="nav-top-links"
-          aria-expanded="false"
-        >
-          <span class="sr-only">Open and Close Menu</span>
-        </button>
+          <!-- navigation toggle  -->
+          <button
+            id="nav-toggle"
+            class="btn nav-toggle"
+            aria-controls="nav-top-links"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open and Close Menu</span>
+          </button>
 
-        <!-- navigation links  -->
-        <div
-          class="flex nav-wrapper-links"
-          id="nav-top-links"
-          data-navigation-agent
-          data-navigation-state
-        >
-          <ul class="flex nav-links nav-links_int container">
-            <li><a href="#!">Features</a></li>
-            <li><a href="#!">Pricing</a></li>
-            <li><a href="#!">Contact</a></li>
-            <li>
-              <a href="#!" class="btn btn_chopped btn_primary"
-                >Login</a
-              >
-            </li>
-          </ul>
-
-          <ul class="flex nav-links nav-links_ext container">
-            <li>
-              <a href="#!">
-                <span class="sr-only">facebook</span>
-                <i class="fa-brands fa-square-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#!">
-                <span class="sr-only">twitter</span>
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-            </li>
-          </ul>
-
-          <ul>
-            <li>
-              <a href="#!">
-                <span class="sr-only">facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="#!">
-                <span class="sr-only">twitter</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <h1 class="sr-only">Bookmark Chrome Extension</h1>
-
-      <!-- overview  -->
-      <div class="block-section container overview">
-        <div class="flex overview__desc">
-          <h2 class="heading text-ntrl-2">
-            A Simple Bookmark Manager
-          </h2>
-          <p class="body-copy text-ntrl-1">
-            A clean and simple interface to organize your favourite
-            websites. Open a new browser tab and see your sites load
-            instantly. Try it for free.
-          </p>
-          <div class="overview__action block-section__action flex">
-            <a href="#!" class="btn btn_primary-alt"
-              >Get it on Chrome</a
-            >
-            <a href="#!" class="btn btn_outlined btn_primary-alt"
-              >Get it on Firefox</a
-            >
-          </div>
-        </div>
-        <div class="block-section-visual">
+          <!-- navigation links  -->
           <div
-            class="pill block-section-visual__overlay overview-visual__overlay"
-          ></div>
-          <img
-            src="/images/illustration-hero.svg"
-            alt="illustration"
-          />
-        </div>
-      </div>
+            class="flex nav-wrapper-links"
+            id="nav-top-links"
+            data-navigation-agent
+            data-navigation-state
+          >
+            <ul class="flex nav-links nav-links_int container">
+              <li><a href="#!">Features</a></li>
+              <li><a href="#!">Pricing</a></li>
+              <li><a href="#!">Contact</a></li>
+              <li>
+                <a href="#!" class="btn btn_chopped btn_primary"
+                  >Login</a
+                >
+              </li>
+            </ul>
 
-      <!-- features  -->
-      <div>
-        <h2>Features</h2>
-        <p>
-          Our aim is to make it quick and easy for you to access your
-          favourite websites. Your bookmarks sync between your devices
-          so you can access them on the go.
-        </p>
-        <div>
-          <div>
-            <a href="#tab-feature-1">Simple Bookmarking</a>
-            <a href="#tab-feature-2">Speedy Searching</a>
-            <a href="#tab-feature-3">Easy Sharing</a>
+            <ul class="flex nav-links nav-links_ext container">
+              <li>
+                <a href="#!">
+                  <span class="sr-only">facebook</span>
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <span class="sr-only">twitter</span>
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <a href="#!">
+                  <span class="sr-only">facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <span class="sr-only">twitter</span>
+                </a>
+              </li>
+            </ul>
           </div>
-          <div>
-            <!-- tab #1  -->
-            <div id="tab-feature-1">
-              <img
-                src="/images/illustration-features-tab-1.svg"
-                alt="illustration"
-              />
-              <h3>Bookmark in one click</h3>
-              <p>
-                Organize your bookmarks however you like. Our simple
-                drag-and-drop interface gives you complete control
-                over how you manage your favourite sites.
-              </p>
-              <a href="#!" class="btn btn_primary-alt">More Info</a>
+        </nav>
+      </header>
+
+      <main>
+        <h1 class="sr-only">Bookmark Chrome Extension</h1>
+
+        <!-- overview  -->
+        <div class="block-section container overview">
+          <div class="flex overview__desc">
+            <h2 class="heading text-ntrl-2">
+              A Simple Bookmark Manager
+            </h2>
+            <p class="body-copy text-ntrl-1">
+              A clean and simple interface to organize your favourite
+              websites. Open a new browser tab and see your sites load
+              instantly. Try it for free.
+            </p>
+            <div class="overview__action block-section__action">
+              <a href="#!" class="btn btn_primary-alt"
+                >Get it on Chrome</a
+              >
+              <a href="#!" class="btn btn_outlined btn_primary-alt"
+                >Get it on Firefox</a
+              >
             </div>
-
-            <!-- tab #2 -->
-            <div id="tab-feature-2">
-              <img
-                src="/images/illustration-features-tab-2.svg"
-                alt="illustration"
-              />
-              <h3>Intelligent search</h3>
-              <p>
-                Our powerful search feature will help you find saved
-                sites in no time at all. No need to trawl through all
-                of your bookmarks.
-              </p>
-              <a href="#!" class="btn btn_primary-alt">More Info</a>
-            </div>
-
-            <!-- tab #3  -->
-            <div id="tab-feature-3">
-              <img
-                src="/images/illustration-features-tab-3.svg"
-                alt="illustration"
-              />
-              <h3>Share your bookmarks</h3>
-              <p>
-                Easily share your bookmarks and collections with
-                others. Create a shareable link that you can send at
-                the click of a button.
-              </p>
-              <a href="#!" class="btn btn_primary-alt">More Info</a>
-            </div>
+          </div>
+          <div class="block-section-visual">
+            <div
+              class="pill block-section-visual__overlay overview-visual__overlay"
+            ></div>
+            <img
+              src="/images/illustration-hero.svg"
+              alt="illustration"
+            />
           </div>
         </div>
-      </div>
 
-      <!-- actions  -->
-      <div>
-        <h2>Download the extension</h2>
-        <p>
-          We’ve got more browsers in the pipeline. Please do let us
-          know if you’ve got a favourite you’d like us to prioritize.
-        </p>
+        <!-- features  -->
         <div>
+          <h2>Features</h2>
+          <p>
+            Our aim is to make it quick and easy for you to access
+            your favourite websites. Your bookmarks sync between your
+            devices so you can access them on the go.
+          </p>
           <div>
-            <img src="/images/logo-chrome.svg" alt="chrome logo" />
-            <h3>Add to Chrome</h3>
-            <p>Minimum version 62</p>
-            <a href="#!" class="btn btn_primary-alt"
-              >Add & Install Extension</a
-            >
-          </div>
-          <div>
-            <img src="/images/logo-firefox.svg" alt="firefox logo" />
-            <h3>Add to Firefox</h3>
-            <p>Minimum version 55</p>
-            <a href="#!" class="btn btn_primary-alt"
-              >Add & Install Extension</a
-            >
-          </div>
-          <div>
-            <img src="/images/logo-opera.svg" alt="opera logo" />
-            <h3>Add to Opera</h3>
-            <p>Minimum version 46</p>
-            <a href="#!" class="btn btn_primary-alt"
-              >Add & Install Extension</a
-            >
+            <div>
+              <a href="#tab-feature-1">Simple Bookmarking</a>
+              <a href="#tab-feature-2">Speedy Searching</a>
+              <a href="#tab-feature-3">Easy Sharing</a>
+            </div>
+            <div>
+              <!-- tab #1  -->
+              <div id="tab-feature-1">
+                <img
+                  src="/images/illustration-features-tab-1.svg"
+                  alt="illustration"
+                />
+                <h3>Bookmark in one click</h3>
+                <p>
+                  Organize your bookmarks however you like. Our simple
+                  drag-and-drop interface gives you complete control
+                  over how you manage your favourite sites.
+                </p>
+                <a href="#!" class="btn btn_primary-alt">More Info</a>
+              </div>
+
+              <!-- tab #2 -->
+              <div id="tab-feature-2">
+                <img
+                  src="/images/illustration-features-tab-2.svg"
+                  alt="illustration"
+                />
+                <h3>Intelligent search</h3>
+                <p>
+                  Our powerful search feature will help you find saved
+                  sites in no time at all. No need to trawl through
+                  all of your bookmarks.
+                </p>
+                <a href="#!" class="btn btn_primary-alt">More Info</a>
+              </div>
+
+              <!-- tab #3  -->
+              <div id="tab-feature-3">
+                <img
+                  src="/images/illustration-features-tab-3.svg"
+                  alt="illustration"
+                />
+                <h3>Share your bookmarks</h3>
+                <p>
+                  Easily share your bookmarks and collections with
+                  others. Create a shareable link that you can send at
+                  the click of a button.
+                </p>
+                <a href="#!" class="btn btn_primary-alt">More Info</a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- FAQ  -->
-      <div>
-        <h2>Frequently Asked Questions</h2>
-        <p>
-          Here are some of our FAQs. If you have any other questions
-          you’d like answered please feel free to email us.
-        </p>
+        <!-- actions  -->
         <div>
-          <!-- Question 1 -->
-          <details>
-            <summary>What is Bookmark?</summary>
-            <!-- Answer 1 -->
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Fusce tincidunt justo eget ultricies fringilla. Phasellus
-            blandit ipsum quis quam ornare mattis.
-          </details>
-
-          <!-- Question 2 -->
-          <details>
-            <summary>How can I request a new browser?</summary>
-            <!-- Answer 2 -->
-            Vivamus luctus eros aliquet convallis ultricies. Mauris
-            augue massa, ultricies non ligula. Suspendisse imperdiet.
-            Vivamus luctus eros aliquet convallis ultricies. Mauris
-            augue massa, ultricies non ligula. Suspendisse imperdie
-            tVivamus luctus eros aliquet convallis ultricies. Mauris
-            augue massa, ultricies non ligula. Suspendisse imperdiet.
-          </details>
-
-          <!-- Question 3 -->
-          <details>
-            <summary>Is there a mobile app?</summary>
-            <!-- Answer 3 -->
-            Sed consectetur quam id neque fermentum accumsan. Praesent
-            luctus vestibulum dolor, ut condimentum urna vulputate
-            eget. Cras in ligula quis est pharetra mattis sit amet
-            pharetra purus. Sed sollicitudin ex et ultricies bibendum.
-          </details>
-
-          <!-- Question 4 -->
-          <details>
-            <summary>What about other Chromium browsers?</summary>
-            <!-- Answer 4 -->
-            Integer condimentum ipsum id imperdiet finibus. Vivamus in
-            placerat mi, at euismod dui. Aliquam vitae neque eget nisl
-            gravida pellentesque non ut velit.
-          </details>
+          <h2>Download the extension</h2>
+          <p>
+            We’ve got more browsers in the pipeline. Please do let us
+            know if you’ve got a favourite you’d like us to
+            prioritize.
+          </p>
+          <div>
+            <div>
+              <img src="/images/logo-chrome.svg" alt="chrome logo" />
+              <h3>Add to Chrome</h3>
+              <p>Minimum version 62</p>
+              <a href="#!" class="btn btn_primary-alt"
+                >Add & Install Extension</a
+              >
+            </div>
+            <div>
+              <img
+                src="/images/logo-firefox.svg"
+                alt="firefox logo"
+              />
+              <h3>Add to Firefox</h3>
+              <p>Minimum version 55</p>
+              <a href="#!" class="btn btn_primary-alt"
+                >Add & Install Extension</a
+              >
+            </div>
+            <div>
+              <img src="/images/logo-opera.svg" alt="opera logo" />
+              <h3>Add to Opera</h3>
+              <p>Minimum version 46</p>
+              <a href="#!" class="btn btn_primary-alt"
+                >Add & Install Extension</a
+              >
+            </div>
+          </div>
         </div>
-        <a href="#!" class="btn btn_primary-alt">More Info</a>
-      </div>
 
-      <!-- contacts  -->
-      <div>
-        <h2>35,000+ already joined</h2>
-        <p>Stay up-to-date with what we’re doing</p>
-        <form>
-          <input type="email" />
-          <input
-            type="submit"
-            value="Contact Us"
-            class="btn btn_primary"
-          />
-        </form>
-      </div>
+        <!-- FAQ  -->
+        <div>
+          <h2>Frequently Asked Questions</h2>
+          <p>
+            Here are some of our FAQs. If you have any other questions
+            you’d like answered please feel free to email us.
+          </p>
+          <div>
+            <!-- Question 1 -->
+            <details>
+              <summary>What is Bookmark?</summary>
+              <!-- Answer 1 -->
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Fusce tincidunt justo eget ultricies fringilla.
+              Phasellus blandit ipsum quis quam ornare mattis.
+            </details>
 
+            <!-- Question 2 -->
+            <details>
+              <summary>How can I request a new browser?</summary>
+              <!-- Answer 2 -->
+              Vivamus luctus eros aliquet convallis ultricies. Mauris
+              augue massa, ultricies non ligula. Suspendisse
+              imperdiet. Vivamus luctus eros aliquet convallis
+              ultricies. Mauris augue massa, ultricies non ligula.
+              Suspendisse imperdie tVivamus luctus eros aliquet
+              convallis ultricies. Mauris augue massa, ultricies non
+              ligula. Suspendisse imperdiet.
+            </details>
+
+            <!-- Question 3 -->
+            <details>
+              <summary>Is there a mobile app?</summary>
+              <!-- Answer 3 -->
+              Sed consectetur quam id neque fermentum accumsan.
+              Praesent luctus vestibulum dolor, ut condimentum urna
+              vulputate eget. Cras in ligula quis est pharetra mattis
+              sit amet pharetra purus. Sed sollicitudin ex et
+              ultricies bibendum.
+            </details>
+
+            <!-- Question 4 -->
+            <details>
+              <summary>What about other Chromium browsers?</summary>
+              <!-- Answer 4 -->
+              Integer condimentum ipsum id imperdiet finibus. Vivamus
+              in placerat mi, at euismod dui. Aliquam vitae neque eget
+              nisl gravida pellentesque non ut velit.
+            </details>
+          </div>
+          <a href="#!" class="btn btn_primary-alt">More Info</a>
+        </div>
+
+        <!-- contacts  -->
+        <div>
+          <h2>35,000+ already joined</h2>
+          <p>Stay up-to-date with what we’re doing</p>
+          <form>
+            <input type="email" />
+            <input
+              type="submit"
+              value="Contact Us"
+              class="btn btn_primary"
+            />
+          </form>
+        </div>
+      </main>
       <footer>
         <div>
           <a href="/" aria-labelledby="brand-logo-top">
@@ -357,7 +364,7 @@
           </p>
         </div>
       </footer>
-    </main>
+    </div>
     <template> </template>
     <script src="/src/main.js" type="module"></script>
   </body>

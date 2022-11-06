@@ -4,15 +4,32 @@
 }
 
 .overview-visual__overlay {
-    width: 200%;
+    width: 150%;
     inset: 20% 0 0 20%;
 }
 
 .overview__action {
+    display: inline-flex;
+    width: 100%;
     gap: 1rem;
 }
 
+@media (max-width: 320px) {
+    .overview__action {
+        flex-wrap: wrap;
+    }
+}
+
+@media (width <= 55em) {
+    .overview__action > * {
+        flex: 1 1 auto;
+    }
+}
+
 @media (width > 35em) {
+    .overview__action {
+        width: 80%;
+    }
     .overview-visual__overlay {
         inset: 30% 0 0 20%;
         height: 60%;

@@ -10,6 +10,7 @@
         padding-inline: 1em;
         font-weight: 500;
         border-radius: 0.25rem;
+        white-space: nowrap;
     }
 
     .btn:focus-visible {

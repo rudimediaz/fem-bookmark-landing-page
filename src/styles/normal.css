@@ -53,3 +53,7 @@
     width: auto;
     white-space: normal;
 }
+
+.page-wrapper {
+    overflow-x: hidden;
+}
